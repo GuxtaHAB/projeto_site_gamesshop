@@ -5,10 +5,11 @@
 }
 header {
     padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #f6b60d;
+    color: #372800;
     justify-content: space-between;
 }
+
 
 header, section h2, section h3, form button{
     font-family: 'Bungee', cursive;
@@ -29,7 +30,7 @@ header nav li{
     font-size: 14px;
 }
 header nav li a{
-    color: #ecf0f1;
+    color: #372800;
     text-decoration: none;
 }
 
@@ -45,22 +46,14 @@ header .container, section .container{
     justify-content: space-between;
 }
 
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li{
-    display: inline;
-    margin-right: 8px;
-}
 
 section .container {
-    align-items: flex-start;
+    align-items: center;
 }
 
 section {
     padding:24px 0;
-    color:#182C61;
+    color:#372800;
 }
 
 section h2{ 
@@ -70,8 +63,10 @@ section p{
     margin-bottom: 8px;
 }
 
-.store-front{
-    margin-right: 32px;
+.film{
+    margin-right: 20px;
+    max-height : 500px;
+    border-radius: 10px;
 }
 
 .social-links img{
@@ -88,6 +83,11 @@ section p{
 
 #contact .container {
     display: block;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 27px;
 }
 
 .contact-methods{
@@ -112,25 +112,32 @@ section h3{
 }
 
 form button{
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #372800;
+    color: #f6b60d;
     border:none;
     padding: 16px;
     cursor: pointer;
 }
 form button:hover{
-    background-color: #334c91;
+    background-color: #5c4402;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #372800;
 }
 
 footer {
-    background-color: #182C61;
-    color: #ecf0f1;
-    padding:16px 0;
+    background-color: #f6b60d;
+    color: #372800;
+    padding: 16px 0;  
 }
+
+.introducaoP{
+    background-color: #f6b60d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 
 
 
